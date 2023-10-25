@@ -2,6 +2,7 @@ import React from 'react'
 import "./Main.css"
 import Repeatbill from './Repeatbill'
 import Tip from './Tip'
+import Rightsection from '../rightSection/Rightsection'
 
 const Main = () => {
   return (
@@ -22,6 +23,7 @@ const Main = () => {
             <Repeatbill heading={"Number of people"}/>
 
         </div>
+        <Rightsection/>
 
     </div>
   )
