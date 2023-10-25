@@ -1,0 +1,20 @@
+.smallcards{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    /* margin-top: 10px; */
+    width: 90px;
+    height: 35px;
+    /* border: 2px solid red; */
+    background: hsl(183, 100%, 15%);
+    border-radius: 3px;
+    cursor: pointer;
+    
+}
+.smallcards:hover{
+    background: hsl(186, 14%, 43%);
+}
+.smallcards p{
+    font-size: 19px;
+    color: white;
+}
