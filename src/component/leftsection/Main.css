@@ -1,3 +1,15 @@
+.vertical{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.text{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 80px;
+    font-size: 24px;
+}
 .container{
     width: 850px;
     height: 450px;
@@ -7,6 +19,7 @@
     justify-content: center;
     background: hsl(0, 0%, 100%);
     border-radius: 15px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
 }
 .leftcard{
     background: white;
@@ -15,7 +28,6 @@
     flex-direction: column;
     justify-content: space-between;
     height: 400px;
-    border-radius: 20px 0 0 20px;
     padding: 20px 20px 20px 10px;
     /* border: 2px solid red; */
     /* box-shadow: 0px 0px 10px rgb(53, 49, 49); */

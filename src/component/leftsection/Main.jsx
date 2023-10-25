@@ -6,7 +6,12 @@ import Rightsection from '../rightSection/Rightsection'
 
 const Main = () => {
   return (
-    <div className='container'>
+    <div className='vertical'>
+      <div className='text'>
+      <h5>SPLI</h5>
+      <h5>TTER</h5>
+      </div>
+      <div className='container'>
         <div className="leftcard">
             <Repeatbill heading={"bill"}/>
             <div className="tipsection">
@@ -25,6 +30,7 @@ const Main = () => {
         </div>
         <Rightsection/>
 
+    </div>
     </div>
   )
 }
