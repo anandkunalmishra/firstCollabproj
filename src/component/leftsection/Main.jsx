@@ -13,19 +13,20 @@ const Main = () => {
       </div>
       <div className='container'>
         <div className="leftcard">
-            <Repeatbill heading={"bill"}/>
+            <Repeatbill heading={"Bill"}/>
             <div className="tipsection">
                 <p>Select Tip %</p>
                 <div className="row">
-                    <Tip value={"5%"}/>
-                    <Tip value={"10%"}/>
-                    <Tip value={"15%"}/>
-                    <Tip value={"25%"}/>
-                    <Tip value={"50%"}/>
-                    <Tip value={"Custom"}/>
+                  <Tip value="5%" style={{ backgroundColor: 'hsl(183, 100%, 15%)' }} />
+                  <Tip value="10%" style={{ backgroundColor: 'hsl(183, 100%, 15%)' }} />
+                  <Tip value="15%" style={{ backgroundColor: 'hsl(183, 100%, 15%)' }} />
+                  <Tip value="25%" style={{ backgroundColor: 'hsl(183, 100%, 15%)' }} />
+                  <Tip value="50%" style={{ backgroundColor: 'hsl(183, 100%, 15%)' }} />
+                  <Tip value="Custom" style={{ backgroundColor: 'hsl(186, 14%, 43%)' }} />
                 </div>
+
             </div>
-            <Repeatbill heading={"Number of people"}/>
+            <Repeatbill heading={"Number of People"}/>
 
         </div>
         <Rightsection/>
