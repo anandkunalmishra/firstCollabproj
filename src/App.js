@@ -1,10 +1,10 @@
 import './App.css';
-import Work from './component/Work';
+import Rightsection from './component/rightSection/Rightsection';
 
 function App() {
   return (
     <div className="App">
-      <Work/>
+    <Rightsection/>
     </div>
   );
 }
