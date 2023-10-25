@@ -1,10 +1,11 @@
 import './App.css';
-import Work from './component/Work';
+import Main from './component/leftsection/Main';
+
 
 function App() {
   return (
     <div className="App">
-      <Work/>
+      <Main/>
     </div>
   );
 }
