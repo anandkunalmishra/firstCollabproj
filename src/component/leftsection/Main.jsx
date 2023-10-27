@@ -3,7 +3,7 @@ import "./Main.css"
 import Repeatbill from './Repeatbill'
 import Tip from './Tip'
 import Rightsection from '../rightSection/Rightsection'
-
+// vjdvbfjbvjb
 const Main = () => {
   return (
     <div className='vertical'>
