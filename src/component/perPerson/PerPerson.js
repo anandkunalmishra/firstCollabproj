@@ -8,7 +8,7 @@ function PerPerson({tagline,amount}) {
             <h3>{tagline}</h3>
             <h6>/ person</h6>
         </div>
-        <span> {amount} </span>
+        <span> ${amount} </span>
     </div>
   )
 }
